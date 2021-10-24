@@ -5,8 +5,12 @@ using UnityEngine.AI;
 
 public class AIcontroller : MonoBehaviour
 {
+    //ใช้งาน AI ผ่าน NavMesh
     NavMeshAgent agent;
+   // เป้าหมาย AI ที่จะเดินผ่าน NavMesh ไปถึง
     public GameObject target;
+
+
     // Start is called before the first frame update
     void Start()
     {
